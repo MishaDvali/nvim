@@ -1,0 +1,15 @@
+{
+  "LuaSnip": { "branch": "master", "commit": "8f8d493e7836f2697df878ef9c128337cbf2bb84" },
+  "cmp-buffer": { "branch": "main", "commit": "3022dbc9166796b644a841a02de8dd1cc1d311fa" },
+  "cmp-nvim-lsp": { "branch": "main", "commit": "3cf38d9c957e95c397b66f91967758b31be4abe6" },
+  "cmp-nvim-lua": { "branch": "main", "commit": "d276254e7198ab7d00f117e88e223b4bd8c02d21" },
+  "cmp-path": { "branch": "main", "commit": "447c87cdd6e6d6a1d2488b1d43108bfa217f56e1" },
+  "dark_flat.nvim": { "branch": "main", "commit": "7b9b781ab52c953adb462c654f3ad1154e5e8eb0" },
+  "friendly-snippets": { "branch": "main", "commit": "2be79d8a9b03d4175ba6b3d14b082680de1b31b1" },
+  "lazy.nvim": { "branch": "main", "commit": "aedcd79811d491b60d0a6577a9c1701063c2a609" },
+  "mason-lspconfig.nvim": { "branch": "main", "commit": "21d33d69a81f6351e5a5f49078b2e4f0075c8e73" },
+  "mason.nvim": { "branch": "main", "commit": "3b5068f0fc565f337d67a2d315d935f574848ee7" },
+  "melange-nvim": { "branch": "master", "commit": "ec15b091304580f1d37e711c3a54bc828b09e255" },
+  "nvim-cmp": { "branch": "main", "commit": "b0dff0ec4f2748626aae13f011d1a47071fe9abc" },
+  "nvim-lspconfig": { "branch": "master", "commit": "b1a11b042d015df5b8f7f33aa026e501b639c649" }
+}

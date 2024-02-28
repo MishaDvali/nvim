@@ -1,0 +1,6 @@
+require "Misha.options"
+require "Misha.keymaps"
+require "Misha.plugins"
+require "Misha.cmp"
+require "Misha.colorscheme"
+require "Misha.lsp"
