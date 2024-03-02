@@ -9,8 +9,7 @@ vim.g.localmapleader = " "
 
 local keymaps = {
   n = {
-	  ['<leader>e'] = ":Lex 15<cr>",
-
+	  ['<leader>e'] = ":NvimTreeToggle<cr>",
 
 	  ['<C-h>'] = "<C-w>h",
 	  ['<C-j>'] = "<C-w>j",
@@ -24,6 +23,14 @@ local keymaps = {
 
 	  ['<C-d>'] = "<C-d>zz",
 	  ['<C-u>'] = "<C-u>zz",
+
+
+	  ['<leader>F'] = ":Telescope find_files<CR>",
+	  ['<leader>fg'] = ":Telescope live_grep<CR>",
+	  ['<leader>fb'] = ":Telescope buffers<CR>",
+	  ['<leader>fh'] = ":Telescope help_tags<CR>",
+	  
+	  ['|'] = ":vsplit<CR>",
   },
 
   i = {

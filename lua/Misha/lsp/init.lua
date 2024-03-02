@@ -5,4 +5,3 @@ end
 
 require "Misha.lsp.mason"
 require("Misha.lsp.handlers").setup()
-require "Misha.lsp.null-ls"
