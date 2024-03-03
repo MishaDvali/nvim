@@ -3,4 +3,5 @@ def factorial(number):
 def sum(install):
     pass
 
-a:int = "ds"
+a = "ds"
+b = 'sor'
