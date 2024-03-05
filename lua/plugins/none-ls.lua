@@ -10,5 +10,6 @@ null_ls.setup({
         null_ls.builtins.completion.spell,
     },
 })
+vim.keymap.set('n', 'gf', vim.lsp.buf.format, {})
 		end
 }
