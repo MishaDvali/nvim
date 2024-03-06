@@ -1,6 +1,8 @@
 local servers = {
 	"lua_ls",
 	"pyright",
+	"html",
+	"tsserver",
 }
 
 local settings = {
