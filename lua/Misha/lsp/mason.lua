@@ -3,6 +3,8 @@ local servers = {
 	"pyright",
 	"html",
 	"tsserver",
+		"csharp_ls",
+		"omnisharp_mono",
 }
 
 local settings = {
