@@ -3,7 +3,6 @@ options = {
 	relativenumber = true,
 	mouse = "a",
 	cursorline = true,
-	guifont = "monospace:h40",
 	termguicolors= true,
 	tabstop = 4,
 }
