@@ -4,7 +4,6 @@ local servers = {
 	"html",
 	"tsserver",
 	"csharp_ls",
-	"omnisharp_mono",
 }
 
 local settings = {
