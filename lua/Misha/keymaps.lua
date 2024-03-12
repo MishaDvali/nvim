@@ -8,6 +8,7 @@ vim.g.localmapleader = " "
 
 local keymaps = {
 	n = {
+		["<leader><S-t>"] = ":ToggleTerm<CR>",
 		["<leader>e"] = ":NvimTreeToggle<cr>",
 
 		["<C-h>"] = "<C-w>h",
