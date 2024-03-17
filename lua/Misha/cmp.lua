@@ -110,8 +110,9 @@ cmp.setup({
 		end,
 	},
 	sources = {
-		{ name = "nvim_lsp" },
+		{ name = "cmp_luasnip" },
 		{ name = "luasnip" },
+		{ name = "nvim_lsp" },
 		{ name = "buffer" },
 		{ name = "path" },
 	},
@@ -129,3 +130,23 @@ cmp.setup({
 		native_menu = false,
 	},
 })
+
+-----------------------------------------
+
+-- local ls = luasnip
+-- local s = ls.snippet
+-- local t = ls.text_node
+-- local i = ls.insert_node
+--
+--
+-- local rep = require("luasnip.extras").rep
+-- local fmt = require("luasnip.extras.fmt").fmt
+--
+-- ls.snippets = {
+--
+-- 	all = {
+-- 		s("req", fmt("local {} = require('{})"), { i(1), i(2)}),
+-- 	},
+-- }
+--
+-- 			print(ls.parser.parse_snippet)
