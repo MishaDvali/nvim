@@ -32,6 +32,9 @@ local keymaps = {
 
 		["|"] = ":vsplit<CR>",
 		["-"] = ":split<CR>",
+
+		["<C-g>"] = ":ToggleTerm<cr>lazygit<cr>",
+		["<C-p>"] = ":ToggleTerm<cr>venv\\Scripts\\activate",
 	},
 
 	i = {
