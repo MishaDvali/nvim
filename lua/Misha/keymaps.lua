@@ -34,7 +34,7 @@ local keymaps = {
 		["-"] = ":split<CR>",
 
 		["<C-g>"] = ":ToggleTerm<cr>lazygit<cr>",
-		["<C-p>"] = ":ToggleTerm<cr>venv\\Scripts\\activate",
+		["<C-p>"] = ":ToggleTerm<CR>venv\\Scripts\\activate<CR>",
 	},
 
 	i = {
