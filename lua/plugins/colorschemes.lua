@@ -6,12 +6,13 @@ return {
 		priority = 1000,
 		opts = {},
 		config = function()
-			vim.cmd("colorscheme kanagawa-wave")
+			vim.cmd("colorscheme aura")
 		end,
 	},
+	{"techtuner/aura-neovim"},
 	-- { "ellisonleao/gruvbox.nvim", priority = 1000 , config = true, opts = ...},
-	{ "rebelot/kanagawa.nvim", priority = 1000 },
+	-- { "rebelot/kanagawa.nvim", priority = 1000 },
 	-- { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 	-- { "savq/melange-nvim",},
-	-- {"sekke276/dark_flat.nvim",}
+	{"sekke276/dark_flat.nvim",}
 }
