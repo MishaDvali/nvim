@@ -13,10 +13,10 @@ return {
 
 						i = {
 							["<C-h>"] = "which_key",
-							["<C-d"] = require('telescope.actions').delete_buffer,
+							["<leader>d"] = require('telescope.actions').delete_buffer,
 						}, -- i
 						n = {
-							["<C-d"] = require('telescope.actions').delete_buffer,
+							["<leader>d"] = require('telescope.actions').delete_buffer,
 						}, -- n
 					} -- mappings
 				}, -- defaults
