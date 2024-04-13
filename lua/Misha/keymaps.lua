@@ -24,11 +24,13 @@ local keymaps = {
 		["<C-d>"] = "<C-d>zz",
 		["<C-u>"] = "<C-u>zz",
 
-		['<leader>ff'] = ":Telescope find_files<CR>",
-		['<leader>fg'] = ":Telescope live_grep<CR>",
-		['<leader>F'] = ":Telescope buffers<CR>",
-		['<leader>fb'] = ":Telescope buffers<CR>",
-		['<leader>fh'] = ":Telescope help_tags<CR>",
+		["<leader>ff"] = ":Telescope find_files<CR>",
+		["<leader>fg"] = ":Telescope live_grep<CR>",
+		["<leader>F"] = ":Telescope buffers<CR>",
+		["<leader>fb"] = ":Telescope buffers<CR>",
+		["<leader>fh"] = ":Telescope help_tags<CR>",
+
+		["<C-S-d>"] = ":bdelete<cr>",
 
 		["|"] = ":vsplit<CR>",
 		["-"] = ":split<CR>",
@@ -49,6 +51,8 @@ local keymaps = {
 
 		["dk"] = "<Esc>la",
 		["kd"] = "<Esc>la",
+
+		["<C-S-d>"] = "<Esc>:bdelete<cr>",
 	},
 
 	v = {

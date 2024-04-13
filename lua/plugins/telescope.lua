@@ -10,14 +10,14 @@ return {
 					-- Default configuration for telescope goes here:
 					-- config_key = value,
 					mappings = {
-						n = {
-							['<c-d>'] = require('telescope.actions').delete_buffer,
 
-						}, -- n
 						i = {
 							["<C-h>"] = "which_key",
-							['<c-d>'] = require('telescope.actions').delete_buffer
-						} -- i
+							["<C-d"] = require('telescope.actions').delete_buffer,
+						}, -- i
+						n = {
+							["<C-d"] = require('telescope.actions').delete_buffer,
+						}, -- n
 					} -- mappings
 				}, -- defaults
 			} -- telescope setup
