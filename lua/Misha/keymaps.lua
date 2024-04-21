@@ -8,7 +8,6 @@ vim.g.localmapleader = " "
 
 local keymaps = {
 	n = {
-		["<leader>e"] = ":NvimTreeToggle<cr>",
 		["<leader><S-t>"] = ":ToggleTerm direction=tab<CR>",
 		["<leader>tv"] = ":ToggleTerm size=50 direction=vertical<CR>",
 		["<leader>tf"] = ":ToggleTerm direction=float<CR>",

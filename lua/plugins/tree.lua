@@ -20,6 +20,7 @@ return {
     dotfiles = true,
   },
 })
+		vim.keymap.set("n", "<C-e>", ":NvimTreeToggle<cr>")
   end,
 
 }
