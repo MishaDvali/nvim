@@ -8,8 +8,11 @@ vim.g.localmapleader = " "
 
 local keymaps = {
 	n = {
-		["<leader><S-t>"] = ":ToggleTerm<CR>",
 		["<leader>e"] = ":NvimTreeToggle<cr>",
+		["<leader><S-t>"] = ":ToggleTerm direction=tab<CR>",
+		["<leader>tv"] = ":ToggleTerm size=50 direction=vertical<CR>",
+		["<leader>tf"] = ":ToggleTerm direction=float<CR>",
+		["<leader>th"] = ":ToggleTerm size=15 direction=horizontal<CR>",
 
 		["<C-h>"] = "<C-w>h",
 		["<C-j>"] = "<C-w>j",
@@ -35,8 +38,8 @@ local keymaps = {
 		["|"] = ":vsplit<CR>",
 		["-"] = ":split<CR>",
 
-		["<C-g>"] = ":ToggleTerm<cr>lazygit<cr>",
-		["<C-p>"] = ":ToggleTerm<CR>venv\\Scripts\\activate<CR>",
+		["<C-g>"] = ":ToggleTerm direction=tab<cr>lazygit<cr>",
+		["<C-p>"] = ":ToggleTerm direction=tab<CR>venv\\Scripts\\activate<CR>",
 	},
 
 	i = {
