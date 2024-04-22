@@ -13,6 +13,8 @@ local keymaps = {
 		["<leader>tf"] = ":ToggleTerm direction=float<CR>",
 		["<leader>th"] = ":ToggleTerm size=15 direction=horizontal<CR>",
 
+		["<S-j>"] = "5j",
+		["<S-k>"] = "5k",
 		["<C-h>"] = "<C-w>h",
 		["<C-j>"] = "<C-w>j",
 		["<C-k>"] = "<C-w>k",
