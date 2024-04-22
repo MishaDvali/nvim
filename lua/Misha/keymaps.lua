@@ -32,7 +32,7 @@ local keymaps = {
 		["<leader>fb"] = ":Telescope buffers<CR>",
 		["<leader>fh"] = ":Telescope help_tags<CR>",
 
-		["<C-S-d>"] = ":bdelete<cr>",
+		["<leader>bd"] = ":bdelete<cr>",
 
 		["|"] = ":vsplit<CR>",
 		["-"] = ":split<CR>",
@@ -54,7 +54,6 @@ local keymaps = {
 		["dk"] = "<Esc>la",
 		["kd"] = "<Esc>la",
 
-		["<C-S-d>"] = "<Esc>:bdelete<cr>",
 	},
 
 	v = {
