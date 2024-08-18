@@ -4,8 +4,8 @@ options = {
 	mouse = "a",
 	cursorline = true,
 	termguicolors = true,
-	shiftwidth = 4,
-	tabstop = 4,
+	shiftwidth = 2,
+	tabstop = 2,
 	scrolloff = 10,
 }
 for k, v in pairs(options) do
