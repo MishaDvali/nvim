@@ -26,11 +26,6 @@ local keymaps = {
 		["<C-d>"] = "<C-d>zz",
 		["<C-u>"] = "<C-u>zz",
 
-		["<leader>ff"] = ":Telescope find_files<CR>",
-		["<leader>fg"] = ":Telescope live_grep<CR>",
-		["<leader>F"] = ":Telescope buffers<CR>",
-		["<leader>fb"] = ":Telescope buffers<CR>",
-		["<leader>fh"] = ":Telescope help_tags<CR>",
 
 		["<leader>bd"] = ":bdelete<cr>",
 
@@ -38,7 +33,6 @@ local keymaps = {
 		["-"] = ":split<CR>",
 
 		["<C-g>"] = ":ToggleTerm direction=tab<cr>lazygit<cr>",
-		["<C-p>"] = ":ToggleTerm direction=tab<CR>venv\\Scripts\\activate<CR>",
 	},
 
 	i = {
