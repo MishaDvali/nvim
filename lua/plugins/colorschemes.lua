@@ -1,5 +1,11 @@
 return {
-	-- { "rose-pine/neovim", name = "rose-pine" },
+	{ "rose-pine/neovim", name = "rose-pine" },
+	{"techtuner/aura-neovim"},
+	{ "ellisonleao/gruvbox.nvim", priority = 1000 , config = true, opts = ...},
+	{ "rebelot/kanagawa.nvim", priority = 1000 },
+	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+	{ "savq/melange-nvim",},
+	{ "sekke276/dark_flat.nvim" },
 	{
 		"folke/tokyonight.nvim",
 		lazy = false,
@@ -13,10 +19,4 @@ return {
 			vim.cmd("highlight NonText ctermbg=none")
 		end,
 	},
-	-- {"techtuner/aura-neovim"},
-	-- { "ellisonleao/gruvbox.nvim", priority = 1000 , config = true, opts = ...},
-	-- { "rebelot/kanagawa.nvim", priority = 1000 },
-	-- { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
-	-- { "savq/melange-nvim",},
-	{ "sekke276/dark_flat.nvim" },
 }
