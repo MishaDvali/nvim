@@ -40,9 +40,9 @@ return {
 				row = 0,
 				col = 1,
 			},
-			yadm = {
-				enable = false,
-			},
+			-- yadm = {          gave me error for some reason
+			-- 	enable = false,
+			-- },
 		})
 	end,
 }
