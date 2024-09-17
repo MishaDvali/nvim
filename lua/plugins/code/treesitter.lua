@@ -22,6 +22,6 @@ return {
             },
 			auto_install = true;
 		})
-		require 'nvim-treesitter.install'.compilers = { "clang", "gcc" }
+		require 'nvim-treesitter.install'.compilers = {"zig", "clang",  "gcc", }
 	end,
 }
