@@ -23,8 +23,8 @@ local keymaps = {
 		["<C-Right>"] = ":vertical resize +2<CR>",
 		["<C-Left>"] = ":vertical resize -2<CR>",
 
-		["<C-d>"] = "<C-d>zz",
-		["<C-u>"] = "<C-u>zz",
+		-- ["<C-d>"] = "<C-d>zz",
+		-- ["<C-u>"] = "<C-u>zz",
 
 
 		["<leader>bd"] = ":bdelete<cr>",
@@ -36,8 +36,8 @@ local keymaps = {
 	},
 
 	i = {
-		["<C-d>"] = "<C-d>zz",
-		["<C-u>"] = "<C-u>zz",
+		-- ["<C-d>"] = "<C-d>zz",
+		-- ["<C-u>"] = "<C-u>zz",
 
 		["jk"] = "<Esc>",
 		["kj"] = "<Esc>",
