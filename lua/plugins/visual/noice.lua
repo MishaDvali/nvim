@@ -15,6 +15,7 @@ return -- lazy.nvim
     },
 	config = function ()
 		require("noice").setup({
+			background_colour = 000000,
 			lsp = {
 				-- override markdown rendering so that **cmp** and other plugins use **Treesitter**
 				override = {
