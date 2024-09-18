@@ -6,6 +6,7 @@ keymap("", "<Space>", "<Nop>", opts)
 vim.g.mapleader = " "
 vim.g.localmapleader = " "
 
+
 local keymaps = {
 	n = {
 		["<leader><S-t>"] = ":ToggleTerm direction=tab<CR>",
@@ -23,10 +24,6 @@ local keymaps = {
 		["<C-Right>"] = ":vertical resize +2<CR>",
 		["<C-Left>"] = ":vertical resize -2<CR>",
 
-		-- ["<C-d>"] = "<C-d>zz",
-		-- ["<C-u>"] = "<C-u>zz",
-
-
 		["<leader>bd"] = ":bdelete<cr>",
 
 		["|"] = ":vsplit<CR>",
@@ -36,9 +33,6 @@ local keymaps = {
 	},
 
 	i = {
-		-- ["<C-d>"] = "<C-d>zz",
-		-- ["<C-u>"] = "<C-u>zz",
-
 		["jk"] = "<Esc>",
 		["kj"] = "<Esc>",
 
