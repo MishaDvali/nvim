@@ -29,8 +29,6 @@ local keymaps = {
 
 		["|"] = ":vsplit<CR>",
 		["-"] = ":split<CR>",
-
-		["<C-g>"] = ":ToggleTerm direction=tab<cr>lazygit<cr>",
 	},
 
 	i = {
