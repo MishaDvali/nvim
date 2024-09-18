@@ -1,3 +1,6 @@
+vim.keymap.set('n', 'zA', function() require('ufo').openAllFolds() end, KEYMAP_OPTS)
+vim.keymap.set('n', 'za', function() require('ufo').closeAllFolds() end, KEYMAP_OPTS)
+vim.keymap.set('n', 'zl', 'za', KEYMAP_OPTS)
 return {
 	'kevinhwang91/nvim-ufo',
 	dependencies = {'kevinhwang91/promise-async'},
@@ -8,9 +11,6 @@ return {
 		vim.o.foldenable = true
 
 		-- Using ufo provider need remap `zR` and `zM`. If Neovim is 0.6.1, remap yourself
-		vim.keymap.set('n', 'zA', require('ufo').openAllFolds, KEYMAP_OPTS)
-		vim.keymap.set('n', 'za', require('ufo').closeAllFolds, KEYMAP_OPTS)
-		vim.keymap.set('n', 'zl', 'za', KEYMAP_OPTS)
 
 
 		-- Option 1: coc.nvim as LSP client
