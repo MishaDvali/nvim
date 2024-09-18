@@ -7,4 +7,5 @@ return {
 	require("plugins.code.undotree"),
 	require("plugins.code.movement"),
 	require("plugins.code.folding"),
+	require("plugins.code.treesj"),
 }
