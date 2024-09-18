@@ -5,5 +5,5 @@ return {
 	require("plugins.code.snips"),
 	require("plugins.code.lsp"),
 	require("plugins.code.undotree"),
-	require("plugins.code.movement")
+	require("plugins.code.movement"),
 }
