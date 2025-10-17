@@ -4,7 +4,6 @@ local servers = {
 	"html",
 	"ts_ls",
 	"csharp_ls",
-	"gopls",
 }
 
 local settings = {
