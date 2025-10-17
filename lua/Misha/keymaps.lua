@@ -25,6 +25,8 @@ local keymaps = {
 		["<C-Right>"] = ":vertical resize +2<CR>",
 		["<C-Left>"] = ":vertical resize -2<CR>",
 
+		["<leader>bn"] = ":bnext<cr>",
+		["<leader>bp"] = ":bprevious<cr>",
 		["<leader>bd"] = ":bdelete<cr>",
 
 		["|"] = ":vsplit<CR>",
