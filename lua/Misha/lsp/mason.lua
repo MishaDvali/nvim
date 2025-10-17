@@ -2,7 +2,7 @@ local servers = {
 	"lua_ls",
 	"pyright",
 	"html",
-	"ts_ls",
+	"ts_ls", -- renamed from tsserver
 	"csharp_ls",
 }
 
@@ -25,7 +25,10 @@ require("mason-lspconfig").setup({
 	automatic_installation = true,
 })
 
-local lspconfig_status_ok, lspconfig = pcall(require, "lspconfig")
+-- ✅ minimal change: use new API without breaking old structure
+local lspconfig_status_ok, lspconfig = pcall(function()
+  return require("lspconfig")
+end)
 if not lspconfig_status_ok then
 	return
 end

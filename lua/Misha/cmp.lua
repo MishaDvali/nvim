@@ -111,7 +111,7 @@ cmp.setup({
 	},
 	sources = {
 		{ name = "cmp_luasnip" },
-		{ name = "luasnip" },
+		-- { name = "luasnip" },
 		{ name = "nvim_lsp" },
 		{ name = "buffer" },
 		{ name = "path" },
