@@ -4,6 +4,7 @@ local servers = {
 	"html",
 	"ts_ls", -- renamed from tsserver
 	"csharp_ls",
+	"clangd", 
 }
 
 local settings = {
