@@ -25,18 +25,8 @@ require("mason-lspconfig").setup({
 	automatic_installation = true,
 })
 
--- ✅ minimal change: use new API without breaking old structure
-local lspconfig_status_ok, lspconfig = pcall(function()
-  return require("lspconfig")
-end)
-if not lspconfig_status_ok then
-	return
-end
-
-local opts = {}
-
 for _, server in pairs(servers) do
-	opts = {
+	local opts = {
 		on_attach = require("Misha.lsp.handlers").on_attach,
 		capabilities = require("Misha.lsp.handlers").capabilities,
 	}
@@ -48,5 +38,7 @@ for _, server in pairs(servers) do
 		opts = vim.tbl_deep_extend("force", conf_opts, opts)
 	end
 
-	lspconfig[server].setup(opts)
+	-- Use vim.lsp.config and vim.lsp.enable for the new API
+	vim.lsp.config(server, opts)
+	vim.lsp.enable(server)
 end
